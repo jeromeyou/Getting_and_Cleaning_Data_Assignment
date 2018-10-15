@@ -8,21 +8,21 @@ std(): Standard deviation
 The data were averaged based on subject and activity group.
 Subject column is numbered sequentially from 1 to 30. Activity column has 6 types as listed below.
 
-WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
-The tidy data contains 6 rows (averaged based on activity) and 68 columns (66 variables and activity labels).
+WALKING <br>
+WALKING_UPSTAIRS <br>
+WALKING_DOWNSTAIRS <br>
+SITTING <br>
+STANDING <br>
+LAYING <br><br>
+The tidy data contains 6 rows (averaged based on activity) and 68 columns (66 variables and activity labels). 
 "activitylabel"
 "subject"
-"tBodyAcc-mean()-X"
-"tBodyAcc-mean()-Y"
-"tBodyAcc-mean()-Z"
-"tBodyAcc-std()-X"
-"tBodyAcc-std()-Y"
-"tBodyAcc-std()-Z"
+"tBodyAcc-mean()-X" 
+"tBodyAcc-mean()-Y" 
+"tBodyAcc-mean()-Z" 
+"tBodyAcc-std()-X" 
+"tBodyAcc-std()-Y" 
+"tBodyAcc-std()-Z" 
 "tGravityAcc-mean()-X"
 "tGravityAcc-mean()-Y"
 "tGravityAcc-mean()-Z"
@@ -83,5 +83,5 @@ The tidy data contains 6 rows (averaged based on activity) and 68 columns (66 va
 "fBodyBodyGyroMag-std()"
 "fBodyBodyGyroJerkMag-mean()"
 "fBodyBodyGyroJerkMag-std()"
-variable units
+variable units <br>
 Activity variable is factor type. Subject variable is integer type. All the other variables are numeric type.
